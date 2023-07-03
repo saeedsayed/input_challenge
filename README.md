@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://saeedsayed.github.io/input_challenge/">
       Demo
     </a>
     <span> | </span>
