@@ -1,0 +1,155 @@
+:root {
+    --gray-1: #333333;
+    --gray-2: #4f4f4f;
+    --gray-3: #828282;
+    --gray-4: #F2F2F2;
+    --primary-color: #2962FF;
+    --error-color: #D32F2F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 0 90px 0 80px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--gray-2);
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+
+.created {
+    margin: 30px 0;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--gray-3);
+}
+
+.created span {
+    color: var(--error-color);
+    font-size: 24px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    width: 728px;
+    margin-top: 42px;
+}
+
+.group.gr-4 {
+    width: 656px;
+}
+
+.group.gr-5 {
+    width: 556px;
+}
+
+label,
+h3 {
+    color: var(--gray-1);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+label {
+    margin: 16px 0 4px;
+
+}
+
+p.hv {
+    color: var(--gray-3);
+    font-size: 12px;
+}
+
+input {
+    display: block;
+    width: 200px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-3);
+    padding: 18px 12px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input.inpH {
+    border-color: var(--gray-1);
+}
+
+input.inpF {
+    border-color: var(--primary-color);
+}
+
+label[for="input3"] {
+    color: var(--primary-color);
+}
+
+.group .er,
+.group.error .inpF {
+    border-color: var(--error-color);
+}
+
+.group.error label:not([for="input5"]),
+label[for="input9"],
+.hv.er {
+    color: var(--error-color);
+}
+
+input:disabled {
+    border-color: var(--gray-4);
+}
+
+.icon {
+    position: relative;
+}
+
+#input10 {
+    padding-left: 45px;
+}
+
+#input11 {
+    padding-right: 35px;
+}
+
+#input10+span,
+#input11+span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#input10+span {
+    left: 12px;
+}
+
+#input11+span {
+    right: 12px;
+}
+
+input.sm {
+    height: 40px;
+}
+
+.fw {
+    width: 100%;
+}
+
+.row-4 {
+    height: 150px;
+    display: flex;
+}
